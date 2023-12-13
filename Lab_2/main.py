@@ -1,8 +1,4 @@
-import os
-import requests
-import zipfile
-
-from Lab_2.downloader import Downloader
+from downloader import Downloader
 
 DOWNLOAD_URLS = [
     "https://divvy-tripdata.s3.amazonaws.com/Divvy_Trips_2018_Q4.zip",
